@@ -1,0 +1,16 @@
+{
+  "name": "format-currency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/formatCurrency.js",
+  "types": "dist/formatCurrency.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "josephe44, noblejos and blamofcodes",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
