@@ -15,7 +15,7 @@ npm install format-currency
 or
 
 ```bash
-yarn add format-price
+yarn add format-currency
 ```
 
 ## Usage
