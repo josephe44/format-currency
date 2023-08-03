@@ -29,7 +29,7 @@ import formatCurrency from "format-currency";
 const amount = 1234.56;
 const currency = "USD";
 
-const formattedPrice = formatPrice(amount, currency);
+const formattedPrice = formatCurrency(amount, currency);
 console.log(formattedPrice); // Output: "$1,234.56"
 ```
 
@@ -37,7 +37,7 @@ The `formatCurrency` function takes two parameters:
 
 - `amount` (required): The numeric value that you want to format as a price. If not provided or set to undefined, it defaults to 0.
 
-- `currency` (optional): The currency code (e.g., "USD", "EUR", "GBP") for which you want to format the price. If not provided, the function will default to using the locale associated with the currency code "USD".
+- `currency` (optional): The currency code (e.g., "USD", "EUR", "GBP", "NGN") for which you want to format the price. If not provided, the function will default to using the locale associated with the currency code "USD".
 
 ## Supported Currencies
 
